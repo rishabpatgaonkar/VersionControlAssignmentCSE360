@@ -27,6 +27,7 @@ public class AddingMachine {
 
 	  /** @param value the number to be subtracted from total **/
 	  public void subtract (int value) {
+		  total = total - value;
 		  history += " - " +  value;
 	  }
 	  
